@@ -7,8 +7,8 @@
 #!date = 2023-11-27 15:06:27
 
 [Script]
-修复时间线 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profile\/statuses\/tab\?,requires-body=1,script-path=https://gitlab.com/lodepuly/vpn_tool/raw/main/Resource/Script/VVebo/VVebo_repair.js,script-update-interval=0
-修复时间线 = type=http-request,pattern=^https:\/\/api\.weibo\.cn\/2\/statuses\/user_timeline\?,requires-body=0,script-path=https://gitlab.com/lodepuly/vpn_tool/raw/main/Resource/Script/VVebo/VVebo_repair.js,script-update-interval=0
-修复时间线 = type=http-request,pattern=^https:\/\/api\.weibo\.cn\/2\/users\/show\?,requires-body=0,script-path=https://gitlab.com/lodepuly/vpn_tool/raw/main/Resource/Script/VVebo/VVebo_repair.js,script-update-interval=0
+修复时间线 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profile\/statuses\/tab\?,requires-body=1,script-path=https://gitlab.com/lodepuly/vpn_tool/raw/master/Resource/Script/VVebo/VVebo_repair.js,script-update-interval=0
+修复时间线 = type=http-request,pattern=^https:\/\/api\.weibo\.cn\/2\/statuses\/user_timeline\?,requires-body=0,script-path=https://gitlab.com/lodepuly/vpn_tool/raw/master/Resource/Script/VVebo/VVebo_repair.js,script-update-interval=0
+修复时间线 = type=http-request,pattern=^https:\/\/api\.weibo\.cn\/2\/users\/show\?,requires-body=0,script-path=https://gitlab.com/lodepuly/vpn_tool/raw/master/Resource/Script/VVebo/VVebo_repair.js,script-update-interval=0
 [MITM]
 hostname = api.weibo.cn
