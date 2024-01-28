@@ -8,7 +8,7 @@
 ^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js 302
 
 [Script]
-阿里云盘签到 = type=cron,cronexp=0 7,11,17 * * *,wake-system=1,script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js
+阿里云盘签到Sliverkiss = type=cron,cronexp=0 7,11,17 * * *,wake-system=1,script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js
 
 [MITM]
 hostname = auth.alipan.com,auth.aliyundrive.com
