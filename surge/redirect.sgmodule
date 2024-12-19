@@ -1,0 +1,8 @@
+[General]
+rewrite = true
+
+[Rewrite]
+^https://www\.nodeseek\.com/jump\?to=(.*) script-response-body https://raw.githubusercontent.com/CY-Christin/surge-qx-loon/refs/heads/master/js/redirect.js
+
+[MITM]
+hostname = www.nodeseek.com
